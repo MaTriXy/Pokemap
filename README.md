@@ -1,17 +1,41 @@
-# Pokemap [![Build Status](https://travis-ci.org/omkarmoghe/Pokemap.svg?branch=dev)](https://travis-ci.org/omkarmoghe/Pokemap) [![Download](https://img.shields.io/badge/download-latest-brightgreen.svg?style=flat-square)](https://github.com/omkarmoghe/Pokemap/releases)
+# Pokemap [![Download](https://img.shields.io/badge/download-latest-brightgreen.svg?style=flat-square)](https://github.com/omkarmoghe/Pokemap/releases)
+
+
+#[Our website is now live](http://pokemapgo.xyz/)
+
+
+
+ Join our Discord server ![Pokemap Discord](https://discordapp.com/api/guilds/258391846143787009/widget.png)
+
+
+
+
+# IMPORTANT UPDATE (PLEASE READ) 8/7/16
+
+First off, we want to thank the entire community for the crazy support and excitement you have shown about our project. We have some important news and updates concerning the state of this project.
+
+Unforunately, we have noticed an increasing number of apps using our codebase to create bots or charge users for the services we aim to provide for free. While we encourage the community to use our code and play with the app, such uses undermine the progress of our app by [motiviating Niantic to change their APIs](https://github.com/omkarmoghe/Pokemap/issues/383) and ultimately hinder further development of this project. For these reasons our dev team has made the following decisions regarding our source code:
+
+1. Further development of Pokemap will continue in a private repo. The source code here will be left as legacy.
+2. Signed APKs will be periodically uploaded to [releases](https://github.com/omkarmoghe/Pokemap/releases).
+3. The translations will be kept open source and we will accept pull requests for languages.
+4. No other pull requests will be merged to this repo.
+5. Issues will be tracked and used to add features and fix bugs with the APK releases.
+
+If you are interested in contributing to the project, reach out to one of the contributors!
+
+Thanks for all your support!
+
+:heart:,  
+The Pokemap Dev Team
+
+---
+
 [Can't log in? Check the PTC login status.](http://ispokemongodownornot.com/)
 
 A native Android client built with https://github.com/AHAAAAAAA/PokemonGo-Map
 
-<img src="http://imgur.com/Wd3MPhs.png" width="270" height="480"/>
-<img src="http://imgur.com/2bvp0k5.png" width="270" height="480"/>
-<img src="http://imgur.com/He6oHLw.png" width="270" height="480"/>
-
 screenshots from @linkout @mike @z14942744 @kyr0 @rancor
-
-### Please Read
-* Due to the recent server side changes by Niantic they have implemented request throttling. Please do not open any tickets about no pokemon showing up. This is known and options are being discussed.
-[Refer Here](https://github.com/omkarmoghe/Pokemap/issues/383)
 
 ### **Slack invites are now restricted to contributors only. Please comment your email when you submit a PR and we will send you an invite.**
 
@@ -24,14 +48,9 @@ Please read the f***ing manual before opening an issue. :heart:
 Make sure you use the latest [android studio version 2.2 (canary builds)] (http://tools.android.com/download/studio/canary/latest) and have installed the latest versions of the build tools and support libraries in order to successfully compile and run the project. 
 
 # Contributing
-Please follow the [Android style guides & best practices](https://source.android.com/source/code-style.html)
-
 All PRs should go to the `dev` branch. `master` will be updated periodically with stable* releases.</str>
 
-## [TODO](https://slack-files.com/T1TQY34KE-F1TSY25UL-10400392c2)
-Please read through the main repo to see how the Python code is grabbing the spawned Pokemon, etc. We need to recreate that functionality in Java :D.
-
-Also, please read this to understand how this all works: https://www.reddit.com/r/pokemongodev/comments/4svl1o/guide_to_pokemon_go_server_responses/
+Please read this to understand how this all works: https://www.reddit.com/r/pokemongodev/comments/4svl1o/guide_to_pokemon_go_server_responses/
 
 ## Translations
 If you are contributing a PR related to language translations, please have other members of the community :thumbsup: your change.
@@ -39,7 +58,7 @@ If you are contributing a PR related to language translations, please have other
 ## Reporting Bugs
 Please include a screenshot and instructions on how to recreate the bug you are reporting. If you have any LogCat stack traces, etc. please include those as well. **Use the search bar to make sure you are not creating duplicate issues. If your bug has already been reported, feel free to comment with additional info.**
 
-# [Official Website] (https://jz6.github.io/PoGoMap/#)
+# [Official Website] (http://pokemapgo.xyz/)
 From the main repo:
 > Live visualization of all pokemon (with option to show gyms and pokestops) in your area. This is a proof of concept that we can load all nearby pokemon given a location. Currently runs on a Flask server displaying a Google Map with markers on it.
 > 
@@ -53,7 +72,4 @@ From the main repo:
 There is an [iOS port](https://github.com/istornz/iPokeGo) in the works. All iOS related prs and issues please refer to this [repo](https://github.com/istornz/iPokeGo).
 
 ---
-
-\* lol
-
 :pineapple:

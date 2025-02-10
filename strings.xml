@@ -1,4 +1,4 @@
-﻿<!--Copyright 2016 Pokémap
+<!--Copyright 2016 Pokémap
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -45,7 +45,6 @@ limitations under the License-->
     <string name="pref_service_enable_key" translatable="false">background_poke_service</string>
     <string name="pref_service_refresh_key" translatable="false">service_refresh_rate_int</string>
     <string name="pref_reset_accounts_button_key" translatable="false">ResetAccountsKey</string>
-    <string name="pref_pokemon_iv_key" translatable="false">pokemon_ivs</string>
 
     <!--Preference Cats-->
     <string name="pref_cat_general">General</string>
@@ -67,7 +66,6 @@ limitations under the License-->
     <string name="pokemon_to_show">Pokémon to show (filter)</string>
     <string name="theme_activity_text">Will make this selection look pretty in the future. Select a theme:</string>
     <string name="preset_themes_title">Preset Themes</string>
-    <string name="pref_pokemon_iv">Show Pokemon IVs</string>
 
     <!--Map Strings-->
     <string name="search_pokemon_map_suggestion">(Long press on map to change searching position)</string>
@@ -78,30 +76,10 @@ limitations under the License-->
     <string name="expiring_in">Expires in: %1$d:%2$02d</string>
     <string name="pokemon_despawn_at" formatted="true">"Disappears at %1$d:%2$02d"</string>
     <string name="pokemon_expired">Expired</string>
-    <string name="max_cp">Max Cp</string>
-    <string name="attack">Attack</string>
-    <string name="stamina">Stamina</string>
-    <string name="defence">Defence</string>
-    <string name="flee_rate">Flee Rate</string>
-    <string name="capture_rate">Capture Rate</string>
-    <string name="base_stats">Base Stats</string>
-    <string name="iv_percent_zeros" formatted="true">Individual Values (%1$.2f%%)</string>
-    <string name="iv_percent" formatted="true">Individual Values (%1$.0f%%)</string>
 
     <!--Pokestops-->
     <string name="pokestop">Pokéstop</string>
     <string name="pokestop_lured">Lured Pokéstop</string>
-    <string name="lure">Lure</string>
-    <string name="lure_expiring_in">Lure expires in: %1$d:%2$02d</string>
-
-    <!--Gyms-->
-    <string name="gym">Gym</string>
-    <string name="gym_prestige">Prestige</string>
-    <string name="gym_level">Gym Level</string>
-    <string name="health">Health</string>
-    <string name="cp">CP</string>
-    <string name="quick_move">Quick Move</string>
-    <string name="charge_move">Charge Move</string>
 
     <!--Map Snackbars-->
     <string name="searching">Searching&#8230;</string>
